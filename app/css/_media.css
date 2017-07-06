@@ -380,11 +380,62 @@
 
 }
 @media only screen and (max-width : 360px) {
-
+	.w-w-d__screen-form .btn-w-w-d-form {
+	    width: 90%;
+	}	
+	.portfolio__inner--photo {
+	    min-height: 215px;
+	}
+	.portfolio__inner::before {
+	    bottom: 30px;
+	}
+	.portfolio__inner--btn-wrap {
+		margin-bottom: 80px;
+	}
+	.our-partners__content a {
+	    font-size: 1.6rem;
+	}
+	.testimonials__slide-wrap--content-wrap {
+		max-width: 300px;
+	}
+	.testimonials-slider {
+	    margin-bottom: -180px;
+	}
+	.main-footer__developet {
+		margin-right: 3px;
+	}
+	.main-footer__developet-logo {
+		max-width: 50px;
+	}
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.portfolio__inner::before {
+	    bottom: 45px;
+	}
+	.portfolio__inner--content ul {
+	    padding-left: 20px;
+	}
+	.our-partners__content a {
+	    font-size: 1.4rem;
+	}
+	.testimonials__slide-wrap--content-wrap {
+	    max-width: 260px;
+	    top: -300px;
+	}
+	.main-footer__email a, .main-footer__phone a {
+	    font-size: 1.6rem;
+	}
+	.main-footer__developet {
+	    margin-right: 0;
+	    display: block;
+	    text-align: center;
+	}
+	.main-footer__developet-logo {
+	    max-width: 70px;
+	    margin: 0 auto;
+	    display: block;
+	}
 }
 /*==========  Mobile First Method  ==========*/
 
