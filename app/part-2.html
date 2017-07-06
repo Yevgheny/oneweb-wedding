@@ -45,78 +45,41 @@
             </div>
         </header>
 
-        <section class="">
+        <section class="what-we-do w-w-d">
             <div class="container clearfix">
-				<div class="row">
-    				<div class="col-sm-10 col-sm-offset-1">
-    					<div id="slider" class="owl-carousel owl-theme">
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						</div>
-    				</div>
-    			</div>
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container clearfix">
-				<div class="row">
-    				<div class="col-sm-10 col-sm-offset-1">
-    					<div id="slider-1" class="owl-carousel owl-theme">
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						</div>
-    				</div>
-    			</div>
-            </div>
-        </section>
-        <section class="form-top">
-            <div class="container clearfix">
-				<div class="row">
-					<div class="col-md-5">
+				<div class="w-w-d__form">
+					<div class="row">
 						<div class="form-wrap">
-							<form action="" class="form-top__form">
-								<h3>Заполните форму,</h3>
-								<p>чтобы бесплатно вызвать специалиста и получить сертификат на 5000 грн</p>
+							<form action="form-control/mail.php" class="w-w-d__screen-form" id="w-w-d-form">
+								<h2>Сделайте заказ до 31 июля 2017 года
+								<span>и получите скидку 25%!</span></h2>
 								<!-- Hidden Required Fields -->
 								<input type="hidden" name="project_name" value="accoustics">
 								<input type="hidden" name="admin_email" value="yevgheny78@gmail.com">
 								<input type="hidden" name="form_subject" value="Заявка с сайта Paradise">
 								<!-- END Hidden Required Fields -->
 								<div class="wrapper">
-									<div class="material-textfield blue">
-								    	<input type="text" required/>
-								    	<label data-content="username">username</label>
-								  	</div>
+									<div class="col-md-4">
+										<div class="input-group">
+											<input class="user" type="text"  name="name" placeholder="Ваше имя" required>
+										</div>
+									</div>
 								  
-								  	<div class="material-textfield red">
-								     	<input type="password" required/>
-								     	<label data-content="password">password</label>
+								  	<div class="col-md-4">
+								  		<div class="input-group">
+										<input class="phone" type="text"  name="phone" placeholder="Ваш телефон" required>
+									</div>
+								  	</div>
+
+								  	<div class="col-md-4">
+								  		<div class="input-group">
+											<input class="email" type="text"  name="email" placeholder="Ваш email" required>
+										</div>
 								  	</div>
 								</div>
-								<div class="input-group">
-									<input type="text"  name="name" placeholder="Ваше имя" required>
-								</div>
-								<div class="input-group">
-									<input type="text"  name="phone" placeholder="Ваш телефон" required>
-								</div>
-								<div class="input-group">
-									<input type="text"  name="email" placeholder="Ваш email" required>
-								</div>
-								<input type="hidden"  name="s_formi" value="Получить сертификат на 5000 грн">
-								<button type="submit" name="submit" class="btn main-btn btn-red">Получить сертификат</button>
+								
+								<input type="hidden"  name="s_formi" value="заказ до 31 июля 2017 года">
+								<button type="submit" name="submit" class="btn btn-pink btn-w-w-d-form">Отправить заявку</button>
 							</form>
 						</div>
 					</div>
@@ -124,57 +87,413 @@
             </div>
         </section>
 
-        <section class="">
+        <section class="portfolio">
             <div class="container clearfix">
-				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="portfolio__head">
+							<span>Наше портфолио</span>
+							<h2 class="main-headline">Как это выглядит?</h2>
+							<img src="img/after-headline.png" alt="орнамент">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="portfolio__inner">
+							<div class="portfolio__inner--photo">
+								<img src="img/portfolio-1.jpg" alt="portfolio-1">
+							</div>
+						</div>
+						<div class="portfolio__inner--head">
+							<h3>Сайт для Жени и Юлии</h3>
+						</div>
+						<div class="portfolio__inner--content">
+							<ul>
+								<li>Домен и хостинг на 1 год</li>
+								<li>Адаптивный интерфейс</li>
+								<li>Дублирующие открытки</li>
+								<li>Срок изготовления 1 день</li>
+							</ul>
+						</div>
+						<div class="portfolio__inner--btn-wrap">
+							<a href="#" class="btn btn-blue portfolio-btn" target="_blank">Посмотреть</a>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="portfolio__inner">
+							<div class="portfolio__inner--photo">
+								<img src="img/portfolio-2.jpg" alt="portfolio-2">
+							</div>
+						</div>
+						<div class="portfolio__inner--head">
+							<h3>Сайт для Жени и Юлии</h3>
+						</div>
+						<div class="portfolio__inner--content">
+							<ul>
+								<li>Домен и хостинг на 1 год</li>
+								<li>Адаптивный интерфейс</li>
+								<li>Дублирующие открытки</li>
+								<li>Срок изготовления 1 день</li>
+							</ul>
+						</div>
+						<div class="portfolio__inner--btn-wrap">
+							<a href="#" class="btn btn-blue portfolio-btn" target="_blank">Посмотреть</a>
+						</div>
+					</div>
+				</div>
+				<div class="w-w-d__form">
+					<div class="row">
+						<div class="form-wrap">
+							<form action="form-control/mail.php" class="w-w-d__screen-form" id="portfolio-form">
+								<h2>Хочу также!
+								<span>Хочу также!</span></h2>
+								<!-- Hidden Required Fields -->
+								<input type="hidden" name="project_name" value="accoustics">
+								<input type="hidden" name="admin_email" value="yevgheny78@gmail.com">
+								<input type="hidden" name="form_subject" value="Заявка с сайта Paradise">
+								<!-- END Hidden Required Fields -->
+								<div class="wrapper">
+									<div class="col-md-4">
+										<div class="input-group">
+											<input class="user" type="text"  name="name" placeholder="Ваше имя" required>
+										</div>
+									</div>
+								  
+								  	<div class="col-md-4">
+								  		<div class="input-group">
+										<input class="phone" type="text"  name="phone" placeholder="Ваш телефон" required>
+									</div>
+								  	</div>
+
+								  	<div class="col-md-4">
+								  		<div class="input-group">
+											<input class="email" type="text"  name="email" placeholder="Ваш email" required>
+										</div>
+								  	</div>
+								</div>
+								
+								<input type="hidden"  name="s_formi" value="заказ до 31 июля 2017 года">
+								<button type="submit" name="submit" class="btn btn-pink btn-w-w-d-form">Отправить заявку</button>
+							</form>
+						</div>
+					</div>
+				</div>
             </div>
         </section>
 
-        <section class="">
+        <section class="our-partners">
             <div class="container clearfix">
-				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="portfolio__head">
+							<span>Наши партнеры</span>
+							<h2 class="main-headline">Получите скидку от наших партнеров</h2>
+							<p>которые рады подарить Вам свои скидки при заказе у нас!</p>
+							<img src="img/after-headline.png" alt="орнамент">
+						</div>
+					</div>
+				</div>
+				<div class="our-partners__content-wrap">
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 col-md-3">
+							<div class="our-partners__content">
+								<a href="#">Свадебный салон “Настя Рай”</a>
+								<em>Скидка 25% на тамаду до 31.07.2017</em>
+								<div class="our-partners__content-logo">
+									<img src="img/our-partners-1.jpg" alt="our-partners-2">
+								</div>
+								
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3">
+							<div class="our-partners__content">
+								<a href="#">Мастерская <br>эмоций</a>
+								<em>Скидка 25% на тамаду до 31.07.2017</em>
+								<div class="our-partners__content-logo">
+									<img src="img/our-partners-2.jpg" alt="our-partners-2">
+								</div>								
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3">
+							<div class="our-partners__content">
+								<a href="#">Свадебный салон “Настя Рай”</a>
+								<em>Скидка 25% на тамаду до 31.07.2017</em>
+								<div class="our-partners__content-logo">
+									<img src="img/our-partners-1.jpg" alt="our-partners-2">
+								</div>								
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3">
+							<div class="our-partners__content">
+								<a href="#">Мастерская <br>эмоций</a>
+								<em>Скидка 25% на тамаду до 31.07.2017</em>
+								<div class="our-partners__content-logo">
+									<img src="img/our-partners-2.jpg" alt="our-partners-2">
+								</div>								
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3">
+							<div class="our-partners__content">
+								<a href="#">Свадебный салон “Настя Рай”</a>
+								<em>Скидка 25% на тамаду до 31.07.2017</em>
+								<div class="our-partners__content-logo">
+									<img src="img/our-partners-1.jpg" alt="our-partners-2">
+								</div>								
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3">
+							<div class="our-partners__content">
+								<a href="#">Мастерская <br>эмоций</a>
+								<em>Скидка 25% на тамаду до 31.07.2017</em>
+								<div class="our-partners__content-logo">
+									<img src="img/our-partners-2.jpg" alt="our-partners-2">
+								</div>								
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3">
+							<div class="our-partners__content">
+								<a href="#">Свадебный салон “Настя Рай”</a>
+								<em>Скидка 25% на тамаду до 31.07.2017</em>
+								<div class="our-partners__content-logo">
+									<img src="img/our-partners-1.jpg" alt="our-partners-2">
+								</div>								
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3">
+							<div class="our-partners__content">
+								<a href="#">Мастерская <br>эмоций</a>
+								<em>Скидка 25% на тамаду до 31.07.2017</em>
+								<div class="our-partners__content-logo">
+									<img src="img/our-partners-2.jpg" alt="our-partners-2">
+								</div>								
+							</div>
+						</div>
+					</div>
+				</div>				
             </div>
         </section>
 
-        <section class="">
+        <section class="testimonials">
             <div class="container clearfix">
+            	<div class="row">
+					<div class="col-md-12">
+						<div class="portfolio__head">
+							<span>Отзывы </span>
+							<h2 class="main-headline">Что говорят о нас клиенты</h2>
+							<img src="img/after-headline.png" alt="орнамент">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+    				<div class="col-sm-12">
+    					<div class="owl-carousel owl-theme testimonials-slider">
+						    <div>
+						    	<div class="testimonials__slide-wrap">
+						    		<div class="testimonials__slide-wrap--photo">
+						    			<img src="img/testimonial-slide-1.jpg" alt="testimonials-slide-1">
+						    		</div>
+						    		<div class="testimonials__slide-wrap--content-wrap">
+						    			<div class="testimonials__slide-wrap--content">
+						    				<h3>Роман и <span>Юля</span></h3>
+						    				<span>Алма-Аты</span>
+						    				<p>“По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен”.</p>
+						    				<a href="#">Подробнее</a>
+						    			</div>
+						    		</div>
+						    	</div>
+						    </div>
+						    <div>
+						    	<div class="testimonials__slide-wrap">
+						    		<div class="testimonials__slide-wrap--photo">
+						    			<img src="img/testimonial-slide-1.jpg" alt="testimonials-slide-1">
+						    		</div>
+						    		<div class="testimonials__slide-wrap--content-wrap">
+						    			<div class="testimonials__slide-wrap--content">
+						    				<h3>Паша и <span>Валя</span></h3>
+						    				<span>Астана</span>
+						    				<p>“По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен”.</p>
+						    				<a href="#">Подробнее</a>
+						    			</div>
+						    		</div>
+						    	</div>
+						    </div>
+						    <div>
+						    	<div class="testimonials__slide-wrap">
+						    		<div class="testimonials__slide-wrap--photo">
+						    			<img src="img/testimonial-slide-1.jpg" alt="testimonials-slide-1">
+						    		</div>
+						    		<div class="testimonials__slide-wrap--content-wrap">
+						    			<div class="testimonials__slide-wrap--content">
+						    				<h3>Женя и <span>Олеся</span></h3>
+						    				<span>Костанай</span>
+						    				<p>“По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен”.</p>
+						    				<a href="#">Подробнее</a>
+						    			</div>
+						    		</div>
+						    	</div>
+						    </div>
+						    <div>
+						    	<div class="testimonials__slide-wrap">
+						    		<div class="testimonials__slide-wrap--photo">
+						    			<img src="img/testimonial-slide-1.jpg" alt="testimonials-slide-1">
+						    		</div>
+						    		<div class="testimonials__slide-wrap--content-wrap">
+						    			<div class="testimonials__slide-wrap--content">
+						    				<h3>Рустам и <span>Ирина</span></h3>
+						    				<span>Павлодар</span>
+						    				<p>“По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен”.</p>
+						    				<a href="#">Подробнее</a>
+						    			</div>
+						    		</div>
+						    	</div>
+						    </div>
+						    <div>
+						    	<div class="testimonials__slide-wrap">
+						    		<div class="testimonials__slide-wrap--photo">
+						    			<img src="img/testimonial-slide-1.jpg" alt="testimonials-slide-1">
+						    		</div>
+						    		<div class="testimonials__slide-wrap--content-wrap">
+						    			<div class="testimonials__slide-wrap--content">
+						    				<h3>Роман и <span>Юля</span></h3>
+						    				<span>Алма-Аты</span>
+						    				<p>“По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен”.</p>
+						    				<a href="#">Подробнее</a>
+						    			</div>
+						    		</div>
+						    	</div>
+						    </div>
+						    <div>
+						    	<div class="testimonials__slide-wrap">
+						    		<div class="testimonials__slide-wrap--photo">
+						    			<img src="img/testimonial-slide-1.jpg" alt="testimonials-slide-1">
+						    		</div>
+						    		<div class="testimonials__slide-wrap--content-wrap">
+						    			<div class="testimonials__slide-wrap--content">
+						    				<h3>Паша и <span>Валя</span></h3>
+						    				<span>Астана</span>
+						    				<p>“По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен”.</p>
+						    				<a href="#">Подробнее</a>
+						    			</div>
+						    		</div>
+						    	</div>
+						    </div>
+						    <div>
+						    	<div class="testimonials__slide-wrap">
+						    		<div class="testimonials__slide-wrap--photo">
+						    			<img src="img/testimonial-slide-1.jpg" alt="testimonials-slide-1">
+						    		</div>
+						    		<div class="testimonials__slide-wrap--content-wrap">
+						    			<div class="testimonials__slide-wrap--content">
+						    				<h3>Роман и <span>Юля</span></h3>
+						    				<span>Павлодар</span>
+						    				<p>“По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен”.</p>
+						    				<a href="#">Подробнее</a>
+						    			</div>
+						    		</div>
+						    	</div>
+						    </div>
+						    <div>
+						    	<div class="testimonials__slide-wrap">
+						    		<div class="testimonials__slide-wrap--photo">
+						    			<img src="img/testimonial-slide-1.jpg" alt="testimonials-slide-1">
+						    		</div>
+						    		<div class="testimonials__slide-wrap--content-wrap">
+						    			<div class="testimonials__slide-wrap--content">
+						    				<h3>Паша и <span>Валя</span></h3>
+						    				<span>Костанай</span>
+						    				<p>“По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен”.</p>
+						    				<a href="#">Подробнее</a>
+						    			</div>
+						    		</div>
+						    	</div>
+						    </div>
+						</div>
+    				</div>
+    			</div>
+    			<div class="w-w-d__form">
+					<div class="row">
+						<div class="form-wrap">
+							<form action="form-control/mail.php" class="w-w-d__screen-form" id="testimonials-form">
+								<h2><span>Готовы сделать Вашу свадьбу незабываемой,
+								</span>но остались вопросы?</h2>
+								<!-- Hidden Required Fields -->
+								<input type="hidden" name="project_name" value="accoustics">
+								<input type="hidden" name="admin_email" value="yevgheny78@gmail.com">
+								<input type="hidden" name="form_subject" value="Заявка с сайта Paradise">
+								<!-- END Hidden Required Fields -->
+								<div class="wrapper">
+									<div class="col-md-4">
+										<div class="input-group">
+											<input class="user" type="text"  name="name" placeholder="Ваше имя" required>
+										</div>
+									</div>
+								  
+								  	<div class="col-md-4">
+								  		<div class="input-group">
+										<input class="phone" type="text"  name="phone" placeholder="Ваш телефон" required>
+									</div>
+								  	</div>
 
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container clearfix">
-
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container clearfix">
-
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container clearfix">
-
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container clearfix">
-
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container clearfix">
-				
+								  	<div class="col-md-4">
+								  		<div class="input-group">
+											<input class="email" type="text"  name="email" placeholder="Ваш email" required>
+										</div>
+								  	</div>
+								</div>
+								
+								<input type="hidden"  name="s_formi" value="заказ до 31 июля 2017 года">
+								<button type="submit" name="submit" class="btn btn-pink btn-w-w-d-form btn-testimonials">Отправить заявку</button>
+							</form>
+						</div>
+					</div>
+				</div>
             </div>
         </section>
 
         <footer class="main-footer">
             <div class="container clearfix">
-				
+				<div class="row">
+					<div class="col-md-3">
+						<div class="main-footer__logo">
+							<img src="img/logo-footer.png" alt="OneWeb-Wedding">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="main-footer__email">
+							<p>Почта</p>
+							<a href="mailto:info@oneweb-team.com">info@oneweb-team.com</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="main-footer__phone">
+							<p>Телефон</p>
+							<a href="tel:77073320316">+7 707 332 03 16&sbquo;</a>
+							<a href="tel:77017128685">+7 701 712 86 85</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="main-footer__btn-wrap">
+							<a href="#" class="btn btn-pink footer-btn">Заказать звонок</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-md-push-6">
+						<div class="main-footer__develpet">
+							<p>Разработано лабораторией веб-решений</p>
+						</div>
+						<div class="main-footer__develpet-logo">
+							<a href="https://oneweb-team.com/" target="_blank"><img src="img/logo-developet.png" alt="OneWeb-Team"></a>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-pull-6">
+						<div class="main-footer__description">
+							<p>&copy; 2017, Oneweb-Wedding - создание свадебных сайтов</p>
+							<a href="#policy">Политика конфиденциальности</a>
+						</div>
+					</div>					
+				</div>
             </div>
         </footer>
     </div>
@@ -209,7 +528,7 @@
 	<!--  модальное окно политика конфиденциальности -->
 	<div class="remodal policy-conf" data-remodal-id="modal-2" role="dialog">
 		<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-		<div id="policy" class="mfp-hide white-popup-block">
+		<div id="policy" class="white-popup-block">
 			<div class="policy-confidential">
 				<h1>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</h1>
 				<p>Ваша конфиденциальность очень важна для нас. Мы хотим, чтобы Ваша работа в Интернет по возможности была максимально приятной и полезной, и Вы совершенно спокойно использовали широчайший спектр информации, инструментов и возможностей, которые предлагает Интернет.</p>

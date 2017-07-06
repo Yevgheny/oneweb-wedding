@@ -1,0 +1,83 @@
+.portfolio {
+	padding-top: 80px;
+	img {
+		max-width: 100%;			
+	}
+	&__head {
+		text-align: center;
+		margin-bottom: 35px;
+		h2 {
+			margin-bottom: 20px;
+		}
+		span {
+			display: block;	
+			font-style: italic;		
+		}		
+	}
+	&__inner {
+		padding: 20px 0;
+		position: relative;
+		&:before {
+			content: '';
+			width: 103px;
+  			height: 103px;
+  			border: 10px solid @pink;
+  			border-radius: 4px;
+  			position: absolute;
+  			bottom: 0;
+  			left: 0;
+  			z-index: 50;
+		}		
+		&:after {
+			content: url("../img/portfolio-photo-bg.png");
+			display: block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: 50;
+		}
+		&--photo {
+			display: block;
+			max-width: 650px;
+			min-height: 365px;
+			overflow: hidden;
+			margin: 0 auto;
+			position: relative;
+			z-index: 100;
+		}
+		&--head {			
+			h3 {
+				text-align: center;
+				font-family: @ff2;
+				font-weight: 700;
+				margin-bottom: 25px;
+			}
+		}
+		&--content {
+			margin-bottom: 35px;
+			ul {
+				padding: 0 0 0 123px;
+				margin: 0;
+				li {
+					list-style-type: none;
+					&:before {
+						content: '';
+						display: inline-block;
+						width: 12px;
+						height: 12px;
+						background: @pink;
+						border-radius: 50%;
+						margin-right: 15px;
+					}
+				}
+			}
+		}
+		&--btn-wrap {
+			padding: 0 0 0 123px;
+			margin-bottom: 130px;
+			a {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

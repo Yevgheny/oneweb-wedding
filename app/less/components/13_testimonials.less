@@ -1,0 +1,70 @@
+.testimonials {
+	img {
+		max-width: 100%;
+	}
+	&__slide-wrap {
+		&--photo {
+			max-width: 583px;
+			min-height: 577px;
+			border-radius: 4px;
+			overflow: hidden;
+			position: relative;
+		}
+		&--content-wrap {
+			max-width: 950px;
+			min-height: 393px;
+			border-radius: 4px;
+			background: rgb(255, 255, 255);
+			border: 2px solid rgb(255, 255, 255);
+  			box-shadow: 0px 0px 15.2px 0.8px rgba(85, 85, 85, 0.38);
+  			padding: 60px 80px;
+			position: absolute;
+			top: 80px;
+			left: 450px;
+		}
+		&--content {
+			h3 {
+				display: inline-block;
+				font-family: @ff2;
+				margin-right: 25px;
+				span {
+					color: @pink;
+				}
+			}
+			span {
+				font-size: 3rem;
+				color: #888888;
+			}
+			a {
+				text-decoration: underline;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+.w-w-d__screen-form .btn-testimonials {
+	margin-bottom: 145px;
+}
+.testimonials-slider {
+	margin-bottom: 135px;
+}
+.testimonials-slider.owl-theme .owl-dots {
+	position: absolute;
+	bottom: 25px;
+	left: 45%;
+}
+.testimonials-slider.owl-theme .owl-dots .owl-dot span {
+	width: 12px;
+  	height: 12px;
+	background: #232b49;
+	border-radius: 50%;
+}
+.testimonials-slider.owl-theme .owl-dots .owl-dot.active span, 
+.testimonials-slider.owl-theme .owl-dots .owl-dot:hover span {
+	background: @pink;
+}
+.testimonials-slider.owl-theme .owl-nav {
+	display: none;
+}

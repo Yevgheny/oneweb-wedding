@@ -16,3 +16,12 @@
 	font-style: normal;
 	font-weight: normal;
 }
+@font-face {
+	font-family: "ProximaNovaSemiBold";
+	src: url("fonts/ProximaNovaSemiBold/proxima-nova-semibold.eot");
+	src: url("fonts/ProximaNovaSemiBold/proxima-nova-semibold.eot?#iefix") format("embedded-opentype"),
+			 url("fonts/ProximaNovaSemiBold/proxima-nova-semibold.woff") format("woff"),
+			 url("fonts/ProximaNovaSemiBold/proxima-nova-semibold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
