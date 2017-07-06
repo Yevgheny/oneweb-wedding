@@ -24,7 +24,7 @@ $(function() {
 
 });
 $(document).ready(function() {
-    $('#slider').owlCarousel({
+    $('.testimonials-slider').owlCarousel({
         loop: true,
         margin: 10,
         nav: true,
@@ -52,3 +52,11 @@ $(document).ready(function() {
 $("#contact-call-back").validate();
 $("#contact-order-call").validate();
 $("#contact-get-price").validate();
+
+$(document).ready(function(){
+    $(".our-partners__content a").hover(function() {
+        $(this).next("em").animate({opacity: "show", top: "75"}, "slow");
+    }, function() {
+        $(this).next("em").animate({opacity: "hide", top: "85"}, "fast");
+    });
+});
