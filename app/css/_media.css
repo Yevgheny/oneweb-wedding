@@ -240,7 +240,9 @@
 }
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 667px){
-
+	.policy-confidential h2 {
+		font-size: 4rem;
+	}
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
@@ -267,8 +269,10 @@
 	.main-footer__phone a {
 	    font-size: 2.2rem;
 	}
+	.policy-confidential h2 {
+	    font-size: 3.6rem;
+	}
 }
-
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .portfolio__inner::before {
@@ -304,6 +308,9 @@
 	.main-footer__email a, 
 	.main-footer__phone a {
 	    font-size: 1.8rem;
+	}
+	h2 {
+	    font-size: 3rem;
 	}
 }
 @media only screen and (max-width : 416px) {
@@ -352,6 +359,12 @@
 	.main-footer__description a {
 	    font-size: 1.2rem;
 	}
+	.policy-confidential h2 {
+	    font-size: 2.4rem;
+	}
+	.policy-confidential p {
+		font-size: 1.6rem;
+	}
 }
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
@@ -377,7 +390,9 @@
 }
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {	
-
+	.policy-confidential h2 {
+	    font-size: 2.2rem;
+	}
 }
 @media only screen and (max-width : 360px) {
 	.w-w-d__screen-form .btn-w-w-d-form {
@@ -435,6 +450,9 @@
 	    max-width: 70px;
 	    margin: 0 auto;
 	    display: block;
+	}
+	.policy-confidential h2 {
+	    font-size: 2rem;
 	}
 }
 /*==========  Mobile First Method  ==========*/
