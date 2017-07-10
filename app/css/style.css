@@ -777,7 +777,7 @@ label.error {
   -webkit-border-radius: 4px;
           border-radius: 4px;
   position: absolute;
-  bottom: 0;
+  bottom: 70px;
   left: 0;
   z-index: 50;
 }
@@ -791,7 +791,7 @@ label.error {
 }
 .portfolio__inner--photo {
   display: block;
-  max-width: 650px;
+  max-width: 520px;
   min-height: 365px;
   overflow: hidden;
   margin: 0 auto;
@@ -864,10 +864,8 @@ label.error {
 }
 .our-partners__content em {
   content: '';
-  max-width: 365px;
-  min-height: 210px;
   font-family: 'ProximaNovaSemiBold', sans-serif;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   color: #3b3b3b;
   background: url("../img/hover.png") no-repeat top center;
   background-size: cover;
@@ -875,10 +873,19 @@ label.error {
   top: 85px;
   left: 0;
   text-align: center;
-  padding: 70px 30px 30px;
+  padding: 70px 15px 30px;
   font-style: normal;
   z-index: 550;
   display: none;
+}
+.our-partners__content-wrap ul {
+  padding: 0;
+  margin: 0;
+}
+.our-partners__content-wrap ul li {
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
 }
 .testimonials img {
   max-width: 100%;
@@ -892,7 +899,7 @@ label.error {
   position: relative;
 }
 .testimonials__slide-wrap--content-wrap {
-  max-width: 950px;
+  max-width: 675px;
   min-height: 393px;
   -webkit-border-radius: 4px;
           border-radius: 4px;
@@ -902,7 +909,7 @@ label.error {
           box-shadow: 0px 0px 15.2px 0.8px rgba(85, 85, 85, 0.38);
   padding: 60px 80px;
   position: absolute;
-  top: 80px;
+  top: 45px;
   left: 450px;
 }
 .testimonials__slide-wrap--content h3 {
@@ -931,8 +938,8 @@ label.error {
 }
 .testimonials-slider.owl-theme .owl-dots {
   position: absolute;
-  bottom: 25px;
-  left: 45%;
+  bottom: 5px;
+  left: 55%;
 }
 .testimonials-slider.owl-theme .owl-dots .owl-dot span {
   width: 12px;
@@ -961,6 +968,9 @@ label.error {
   display: block;
   color: #fff;
 }
+.main-footer__logo img {
+  max-width: 100%;
+}
 .main-footer__email {
   padding-top: 10px;
 }
@@ -986,20 +996,32 @@ label.error {
 }
 .main-footer__description a {
   text-decoration: underline;
+  margin-bottom: 0;
 }
 .main-footer__description a:hover {
   text-decoration: none;
 }
-.main-footer__develpet {
+.main-footer__developet {
   display: inline-block;
   vertical-align: bottom;
   margin-right: 15px;
 }
-.main-footer__develpet-logo {
+.main-footer__developet-logo {
   display: inline-block;
   vertical-align: bottom;
+}
+.main-footer__developet-logo img {
+  max-width: 100%;
 }
 .footer-btn {
   height: 70px;
   line-height: 70px;
+}
+.policy-confidential h2 {
+  text-align: left;
+  font-family: 'ProximaNovaSemiBold', sans-serif;
+}
+.policy-confidential p {
+  text-align: left;
+  font-size: 1.8rem;
 }
