@@ -34,7 +34,7 @@
 	}
 	.tabs {
 		bottom: -75px;
-		left: 33%;
+		left: 32%;
 	}
 	.w-w-d__screen-form .btn-w-w-d-form	{
 		margin: 0 auto;
@@ -111,7 +111,7 @@
 		overflow: hidden;
 	}
 	.tabs {
-		left: 28%;
+		left: 25%;
 	}
 	.tabs_item h3 {
 		font-size: 3rem;
@@ -259,7 +259,7 @@
 }
 @media only screen and (max-width : 668px) {
 	.tabs {
-	    left: 25%;
+	    left: 23%;
 	}
 	.w-w-d__screen-form h2 {
 		font-size: 3.2rem;
@@ -308,7 +308,7 @@
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
 	.tabs {
-	    left: 20%;
+	    left: 18%;
 	}
 	.our-partners__content em {
 		font-size: 2.2rem;
@@ -338,7 +338,7 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.tabs {
-	    left: 13%;
+	    left: 11%;
 	}
     .portfolio__inner::before {
     	bottom: 35px;
@@ -378,7 +378,7 @@
 }
 @media only screen and (max-width : 416px) {
 	.tabs {
-	    left: 7%;
+	    left: 4%;
 	}
 	.portfolio__inner::before {
 	    bottom: 75px;
@@ -442,7 +442,8 @@
 }
 @media only screen and (max-width : 377px) {
 	.tabs {
-	    left: 4%;
+		padding: 0;
+	    left: 6%;
 	}
 	.portfolio__inner::before {
 	    bottom: 95px;
@@ -499,7 +500,7 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 	.tabs {
-	    left: -12px;
+	    left: -10px;
 	}
 	.tabs a {
 		padding: 7.5px 16px;
