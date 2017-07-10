@@ -16,6 +16,15 @@
 	font-style: normal;
 	font-weight: normal;
 }
+@font-face {
+  font-family: "ProximaNovaSemiBold";
+  src: url("fonts/ProximaNovaSemiBold/proxima-nova-semibold.eot");
+  src: url("fonts/ProximaNovaSemiBold/proxima-nova-semibold.eot?#iefix") format("embedded-opentype"),
+       url("fonts/ProximaNovaSemiBold/proxima-nova-semibold.woff") format("woff"),
+       url("fonts/ProximaNovaSemiBold/proxima-nova-semibold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2353,3 +2362,4 @@
   overflow: visible;
   clip: auto;
 }
+

@@ -1,0 +1,56 @@
+.our-partners {
+	padding-top: 105px;
+	img {
+		max-width: 100%;
+	}
+	&__content-wrap {
+		margin-bottom: 50px;
+		z-index: 150;
+	}
+	&__content-logo {
+		max-width: 335px;
+		min-height: 170px;
+		overflow: hidden;
+		margin-bottom: 25px;
+	}
+	&__content {
+		text-align: center;
+		display: inline-block;		
+		a {
+			display: inline-block;
+			text-decoration: underline;
+			font-family: @ff3;
+			color: @blue;
+			font-size: 3rem;
+			margin-bottom: 35px;
+			&:hover {
+				color: @pink;
+			}
+		}
+		em {
+		content:'';		
+		font-family: @ff3;
+		font-size: 2.6rem;
+		color: #3b3b3b;
+	    background: url("../img/hover.png") no-repeat top center;
+	    background-size: cover;	    
+	    position: absolute;
+	    top: 85px;
+	    left: 0;
+	    text-align: center;
+	    padding: 70px 15px 30px;
+	    font-style: normal;
+	    z-index: 550;
+	    display: none;
+		}
+	}
+}
+.our-partners__content-wrap ul {
+	padding: 0;
+	margin: 0;
+}
+.our-partners__content-wrap ul li {
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: top;
+}
