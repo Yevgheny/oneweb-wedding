@@ -177,6 +177,9 @@
 	.footer-btn {
 	    font-size: 1.6rem;
 	}
+	.main-footer a {
+		font-size: 1.8rem;
+	}
 	.main-footer__developet-wrap {
 		padding-top: 30px;
 	}
@@ -250,6 +253,9 @@
 	.main-footer__description {
 		text-align: center;
 	}
+	.main-footer a {
+	    font-size: 3.6rem;
+	}
 }
 @media only screen and (max-width : 668px) {
 	.tabs {
@@ -272,6 +278,26 @@
 	    font-size: 2.6rem;
 	    padding: 70px 25px 30px;
 	}
+	.testimonials-slider {
+	    margin-bottom: 75px;
+	}
+	.testimonials__slide-wrap--photo {
+		margin: 0 auto;
+	}
+	.testimonials__slide-wrap--content-wrap {
+		max-width: 605px;
+		min-height: 320px;
+		padding: 35px;
+		position: relative;
+		top: -75px;
+		left: 15px;
+	}
+	.testimonials-slider.owl-theme .owl-dots {
+		bottom: -5px;
+	}
+	.main-footer__description a {
+		font-size: 1.8rem;
+	}
 }
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 667px){
@@ -288,12 +314,7 @@
 		font-size: 2.2rem;
 	}
 	.testimonials__slide-wrap--content-wrap {
-		max-width: 515px;
-		min-height: 320px;
-		padding: 35px;
-		position: relative;
-		top: -75px;
-		left: 10px;
+		max-width: 510px;
 	}
 	.testimonials__slide-wrap--content h3 {
 		margin-right: 25px;
@@ -317,7 +338,7 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.tabs {
-	    left: 10%;
+	    left: 13%;
 	}
     .portfolio__inner::before {
     	bottom: 35px;
@@ -357,7 +378,7 @@
 }
 @media only screen and (max-width : 416px) {
 	.tabs {
-	    left: 3%;
+	    left: 7%;
 	}
 	.portfolio__inner::before {
 	    bottom: 75px;
@@ -393,6 +414,12 @@
 	.testimonials__slide-wrap--content h3 span {
 	    font-size: 3.4rem;
 	}
+	.testimonials-slider.owl-theme .owl-dots {
+	    bottom: 145px;
+	}
+	.testimonials-slider {
+	    margin-bottom: -90px;
+	}
 	.footer-btn {
 		width: 100%;	
 	}
@@ -415,7 +442,7 @@
 }
 @media only screen and (max-width : 377px) {
 	.tabs {
-	    left: 0;
+	    left: 4%;
 	}
 	.portfolio__inner::before {
 	    bottom: 95px;
@@ -472,7 +499,7 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 	.tabs {
-	    left: -2px;
+	    left: -12px;
 	}
 	.tabs a {
 		padding: 7.5px 16px;
