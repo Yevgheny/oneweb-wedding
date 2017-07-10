@@ -29,6 +29,13 @@
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.w-w-d__tab-content {
+		padding: 0;
+	}
+	.tabs {
+		bottom: -75px;
+		left: 33%;
+	}
 	.w-w-d__screen-form .btn-w-w-d-form	{
 		margin: 0 auto;
 	}
@@ -44,6 +51,10 @@
 	}
 	.our-partners__content a {
 		font-size: 2.4rem;
+	}
+	.our-partners__content em {
+		font-size: 2.2rem;
+		padding: 60px 10px 30px;
 	}
 	.testimonials__slide-wrap--content-wrap {
 		max-width: 480px;
@@ -99,6 +110,15 @@
 	section, header, footer {
 		overflow: hidden;
 	}
+	.tabs {
+		left: 28%;
+	}
+	.tabs_item h3 {
+		font-size: 3rem;
+	}
+	.tabs_item p {
+		font-size: 2rem;
+	}
 	.w-w-d__screen-form .input-group {
 		margin: 0 auto 45px;
 	}
@@ -121,14 +141,12 @@
 	.portfolio__inner--btn-wrap {
 	    padding-left: 50px;
 	}
-	.our-partners__content a,
-	.our-partners__content em {
+	.our-partners__content a {
 		font-size: 1.8rem;
 	}
 	.our-partners__content em {
-		max-width: 180px;
-		min-height: 115px;
-		padding: 35px 0;
+		font-size: 1.6rem;		
+		padding: 40px 10px 20px;
 	}
 	.our-partners__content-logo {
 		margin-bottom: -60px;
@@ -165,12 +183,24 @@
 }
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 736px) {
+	.w-w-d__tab-photo {
+		margin-bottom: 25px;
+	}
+	.tabs_item h3 {
+		text-align: center;
+	}
+	.w-w-d__tab-wrap {
+		margin-bottom: 125px;
+	} 
 	.portfolio__inner::before {
 		bottom: 0;
 		left: 0;
 	}
 	.portfolio__inner::after {
 		right: 0;
+	}
+	.portfolio__inner--photo {
+		max-width: 635px;
 	}
 	.portfolio__inner {
 		margin-bottom: 0;
@@ -182,14 +212,12 @@
 	.portfolio__inner--btn-wrap {
 	    padding-left: 145px;
 	}
-	.our-partners__content a, 
-	.our-partners__content em {
+	.our-partners__content a {
 	    font-size: 2.8rem;
 	}
 	.our-partners__content em {
-		max-width: 360px;
-		min-height: 200px;
-		padding: 70px 25px;
+		font-size: 2.8rem;
+		padding: 70px 45px 30px;
 	}
 	.our-partners__content-logo {
 		margin-bottom: 25px;
@@ -224,6 +252,9 @@
 	}
 }
 @media only screen and (max-width : 668px) {
+	.tabs {
+	    left: 25%;
+	}
 	.w-w-d__screen-form h2 {
 		font-size: 3.2rem;
 	}
@@ -237,6 +268,10 @@
 	.portfolio__inner::after {
 		right: -15px;
 	}
+	.our-partners__content em {
+	    font-size: 2.6rem;
+	    padding: 70px 25px 30px;
+	}
 }
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 667px){
@@ -246,6 +281,12 @@
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
+	.tabs {
+	    left: 20%;
+	}
+	.our-partners__content em {
+		font-size: 2.2rem;
+	}
 	.testimonials__slide-wrap--content-wrap {
 		max-width: 515px;
 		min-height: 320px;
@@ -275,6 +316,9 @@
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.tabs {
+	    left: 10%;
+	}
     .portfolio__inner::before {
     	bottom: 35px;
     }
@@ -285,11 +329,9 @@
 	.our-partners__content a {
 	    font-size: 2.4rem;
 	}	
-	.our-partners__content em {
-	    max-width: 290px;
-	    min-height: 135px;
+	.our-partners__content em {	    
 	    font-size: 2rem;
-	    padding: 45px 5px;
+	    padding: 45px 5px 20px;
 	}
 	.testimonials__slide-wrap--content-wrap {
 		max-width: 420px;
@@ -314,6 +356,9 @@
 	}
 }
 @media only screen and (max-width : 416px) {
+	.tabs {
+	    left: 3%;
+	}
 	.portfolio__inner::before {
 	    bottom: 75px;
 	}
@@ -335,11 +380,9 @@
 	.our-partners__content a {
 		font-size: 1.8rem;
 	}
-	.our-partners__content em {
-	    max-width: 200px;
-	    min-height: 130px;
+	.our-partners__content em {	  
 	    font-size: 1.4rem;
-	    padding: 42px 5px;
+	    padding: 42px 5px 15px;
 	}
 	.testimonials__slide-wrap--content-wrap {
 	    max-width: 350px;
@@ -371,6 +414,9 @@
 	
 }
 @media only screen and (max-width : 377px) {
+	.tabs {
+	    left: 0;
+	}
 	.portfolio__inner::before {
 	    bottom: 95px;
 	}
@@ -425,6 +471,12 @@
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	.tabs {
+	    left: -2px;
+	}
+	.tabs a {
+		padding: 7.5px 16px;
+	}
 	.portfolio__inner::before {
 	    bottom: 45px;
 	}
