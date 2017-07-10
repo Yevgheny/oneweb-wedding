@@ -780,7 +780,6 @@ label.error {
   position: absolute;
   overflow: hidden;
   margin: 0;
-  width: 100%;
   bottom: 25px;
   left: 55%;
   z-index: 200;

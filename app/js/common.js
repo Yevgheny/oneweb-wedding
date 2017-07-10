@@ -38,7 +38,6 @@ $(document).ready(function() {
         open = false;
     });
     
-    $('#slider').owlCarousel({
     $('.testimonials-slider').owlCarousel({
         loop: true,
         margin: 10,
