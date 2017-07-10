@@ -1043,6 +1043,7 @@ label.error {
 .main-footer a {
   display: block;
   color: #fff;
+  font-size: 2.4rem;
 }
 .main-footer__logo img {
   max-width: 100%;
@@ -1055,7 +1056,6 @@ label.error {
 }
 .main-footer__email a {
   font-family: 'ProximaNovaSemiBold', sans-serif;
-  font-size: 2.8rem;
 }
 .main-footer__phone {
   padding-top: 10px;
@@ -1065,7 +1065,6 @@ label.error {
 }
 .main-footer__phone a {
   font-family: 'ProximaNovaSemiBold', sans-serif;
-  font-size: 3rem;
 }
 .main-footer__btn-wrap {
   padding-top: 27px;
