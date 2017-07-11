@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('.revolution-slider').revolution({
-		delay:14000,
+		delay:7000,
 		startwidth:960,
 		startheight:683,
 		startWithSlide:0,
@@ -12,41 +12,19 @@ $(document).ready(function() {
 
 		onHoverStop:"on",
 
-		thumbWidth:100,
-		thumbHeight:50,
+		thumbWidth:12,
+		thumbHeight:12,
 		thumbAmount:3,
 
 		hideThumbsOnMobile:"off",
 		hideNavDelayOnMobile:1500,
 		hideBulletsOnMobile:"off",
-		hideArrowsOnMobile:"off",
 		hideThumbsUnderResoluition:0,
 
-		hideThumbs:1000,
+		hideThumbs:0,
 		hideTimerBar:"off",
 
-		keyboardNavigation:"on",
-
-		navigationType:"bullet",
-		navigationArrows:"solo",
-		navigationStyle:"round",
-
-		navigationHAlign:"right",
-		navigationVAlign:"bottom",
-		navigationHOffset:300,
-		navigationVOffset:0,
-
-		soloArrowLeftHalign:"left",
-		soloArrowLeftValign:"center",
-		soloArrowLeftHOffset:250,
-		soloArrowLeftVOffset:150,
-
-		soloArrowRightHalign:"right",
-		soloArrowRightValign:"center",
-		soloArrowRightHOffset:250,
-		soloArrowRightVOffset:150,
-
-
+		keyboardNavigation:"off",
 		touchenabled:"on",
 		swipe_velocity:"0.7",
 		swipe_max_touches:"1",
