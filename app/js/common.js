@@ -27,7 +27,6 @@ $(function() {
 });
 
 $(document).ready(function() {
-    $("#fittext").fitText();
     //nav-menu
     $(".button a").click(function(){
         $(".overlay").fadeToggle(200);

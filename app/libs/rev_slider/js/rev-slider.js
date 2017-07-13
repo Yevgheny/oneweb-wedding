@@ -16,7 +16,7 @@ $(document).ready(function() {
 		thumbHeight:12,
 		thumbAmount:3,
 
-		hideThumbsOnMobile:"off",
+		hideThumbsOnMobile:"on",
 		hideNavDelayOnMobile:1500,
 		hideBulletsOnMobile:"off",
 		hideThumbsUnderResoluition:0,

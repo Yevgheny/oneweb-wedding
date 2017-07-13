@@ -351,11 +351,15 @@ nav ul li.active a {
 	}
 }
 @media only screen and (max-width : 1200px) {
-
+	.main-headings {
+		font-size: 6.5rem;
+	}
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.main-headings {
+    	font-size: 5rem;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -382,6 +386,9 @@ nav ul li.active a {
 		-ms-animation: none !important;
 		animation: none !important;
 	}
+	.main-headings {
+    	font-size: 4.4rem;
+	}
 
 }
 
@@ -392,6 +399,9 @@ nav ul li.active a {
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 667px) {
+	.main-headings {
+	    font-size: 4rem;
+	}
 	.logo-top.logo-top-mob {
 	    display: block;
 	    width: 50%;
@@ -402,24 +412,59 @@ nav ul li.active a {
 	.button {
 	    margin-top: 30px;
 	}
+	.btn-pink.mp-p-slider-btn {
+		font-size: 3rem;
+	}
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
-
+	.main-headings {
+	    font-size: 3.3rem;
+	}
+	.btn-pink.mp-p-slider-btn {
+		height: 70px;
+		line-height: 70px;
+	    font-size: 2.5rem;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    
+    .main-headings {
+	    font-size: 2.8rem;
+	}
+	.btn-pink.mp-p-slider-btn {
+		min-width: 350px;
+	    height: 50px;
+	    line-height: 50px;
+	    font-size: 2rem;
+	}
 }
 
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
-
+	.main-headings {
+	    font-size: 2.5rem;
+	}
 }
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
+	.main-headings {
+	    font-size: 2rem;
+	}
+	#slideshow .tp-bullets {
+	    bottom: 20px !important;
+	}
+	.btn-pink.mp-p-slider-btn {
+	    width: 320px;
+	}
+	
+}
+@media only screen and (max-width : 360px) {
+	.btn-pink.mp-p-slider-btn {
+	    width: 300px;
+	}
 
 }
 
