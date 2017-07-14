@@ -2,14 +2,87 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+	.portfolio__inner::before {
+		bottom: 60px;
+		left: -15px;
+	}
+	.portfolio__inner::after {
+		right: -15px;
+	}
+	.testimonials__slide-wrap--content-wrap {
+		top: 40px;
+	}
+	.testimonials-slider.owl-theme .owl-dots {
+		bottom: 5px;
+		left: 55%;
+	}
+	.footer-btn {
+		font-size: 2.6rem;
+	}
+	.main-footer__email a,
+	.main-footer__phone a {
+		font-size: 2.2rem;
+	}
+	.main-footer__description a {
+		font-size: 2rem;
+	}
 }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.w-w-d__tab-content {
+		padding: 0;
+	}
+	.tabs {
+		bottom: -75px;
+		left: 32%;
+	}
+	.w-w-d__screen-form .btn-w-w-d-form	{
+		margin: 0 auto;
+	}
+	.portfolio__inner::before {
+	    bottom: 115px;	    
+	}	
+	.portfolio__inner {
+		margin-bottom: -80px;
+	}
+	.portfolio__inner--content ul,
+	.portfolio__inner--btn-wrap {
+		padding-left: 80px;
+	}
+	.our-partners__content a {
+		font-size: 2.4rem;
+	}
+	.our-partners__content em {
+		font-size: 2.2rem;
+		padding: 60px 10px 30px;
+	}
+	.testimonials__slide-wrap--content-wrap {
+		max-width: 480px;
+		padding: 35px;
+	}
+	.testimonials-slider.owl-theme .owl-dots {
+		right: -5%;
+		bottom: 0;
+	}
+	.w-w-d__screen-form .btn-testimonials {
+		margin-bottom: 30px;
+	}
+	.main-footer__email p,
+	.main-footer__phone p,
+	.main-footer p {
+		font-size: 1.6rem;
+	}
+	.main-footer__email a, 
+	.main-footer__phone a {
+	    font-size: 1.8rem;
+	}
+	.footer-btn {
+	    font-size: 2.2rem;
+	}
+	.main-footer__description {
+		padding-top: 30px;
+	}
 }
-
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	
@@ -37,54 +110,431 @@
 	section, header, footer {
 		overflow: hidden;
 	}
-
+	.tabs {
+		left: 25%;
+	}
+	.tabs_item h3 {
+		font-size: 3rem;
+	}
+	.tabs_item p {
+		font-size: 2rem;
+	}
+	.w-w-d__screen-form .input-group {
+		margin: 0 auto 45px;
+	}
+	.w-w-d__screen-form h2 {
+		font-size: 3.6rem;
+	}
+	.portfolio__inner--photo {
+		min-height: 290px;
+	}
+	.portfolio__inner::before {
+	    bottom: 100px;
+	}
+	.portfolio__inner--head h3 {
+		font-size: 2.4rem;
+	}
+	.portfolio__inner--content ul li {
+		font-size: 1.8rem;
+	}
+	.portfolio__inner--content ul, 
+	.portfolio__inner--btn-wrap {
+	    padding-left: 50px;
+	}
+	.our-partners__content a {
+		font-size: 1.8rem;
+	}
+	.our-partners__content em {
+		font-size: 1.6rem;		
+		padding: 40px 10px 20px;
+	}
+	.our-partners__content-logo {
+		margin-bottom: -60px;
+	}
+	.testimonials__slide-wrap--content h3,
+	.testimonials__slide-wrap--content h3 span {
+		font-size: 2.4rem;
+		margin-bottom: 0;
+		margin-right: 0;
+	}
+	.testimonials__slide-wrap--content span {
+		font-size: 2.2rem;
+	}
+	.testimonials__slide-wrap--content p,
+	.testimonials__slide-wrap--content a {
+		font-size: 1.8rem;
+	}
+	.testimonials__slide-wrap--content-wrap {
+		max-width: 305px;
+		padding: 20px;
+		top: 85px;
+		left: 405px;
+	}
+	.testimonials-slider.owl-theme .owl-dots {
+	    left: -5%;
+	    bottom: -65px;
+	}
+	.footer-btn {
+	    font-size: 1.6rem;
+	}
+	.main-footer a {
+		font-size: 1.8rem;
+	}
+	.main-footer__developet-wrap {
+		padding-top: 30px;
+	}
 }
-
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 736px) {
-
+	.w-w-d__tab-photo {
+		margin-bottom: 25px;
+	}
+	.tabs_item h3 {
+		text-align: center;
+	}
+	.w-w-d__tab-wrap {
+		margin-bottom: 125px;
+	} 
+	.portfolio__inner::before {
+		bottom: 0;
+		left: 0;
+	}
+	.portfolio__inner::after {
+		right: 0;
+	}
+	.portfolio__inner--photo {
+		max-width: 635px;
+	}
+	.portfolio__inner {
+		margin-bottom: 0;
+	}
+	.portfolio__inner--head h3 {
+		font-size: 3.6rem;
+	}
+	.portfolio__inner--content ul, 
+	.portfolio__inner--btn-wrap {
+	    padding-left: 145px;
+	}
+	.our-partners__content a {
+	    font-size: 2.8rem;
+	}
+	.our-partners__content em {
+		font-size: 2.8rem;
+		padding: 70px 45px 30px;
+	}
+	.our-partners__content-logo {
+		margin-bottom: 25px;
+	}
+	.testimonials__slide-wrap--content-wrap {
+		max-width: 290px;
+		top: 45px;
+	}
+	.testimonials__slide-wrap--content h3, 
+	.testimonials__slide-wrap--content h3 span {
+		font-size: 3rem;
+	}
+	.main-footer {
+		padding-bottom: 25px;
+	}
+	.main-footer__email p, 
+	.main-footer__phone p, 
+	.main-footer p {
+		font-size: 2.4rem;
+	}
+	.main-footer__email a, 
+	.main-footer__phone a {
+		font-size: 2.6rem;
+	}
+	.footer-btn {
+		font-size: 3.4rem;
+		width: 80%;
+		margin: 0 auto 25px;
+	}
+	.main-footer__description {
+		text-align: center;
+	}
+	.main-footer a {
+	    font-size: 3.6rem;
+	}
 }
-
+@media only screen and (max-width : 668px) {
+	.tabs {
+	    left: 23%;
+	}
+	.w-w-d__screen-form h2 {
+		font-size: 3.2rem;
+	}
+	.w-w-d__screen-form h2 span,
+	.portfolio__head h2 {
+		font-size: 3.6rem;
+	}
+	.portfolio__inner::before {
+		left: -15px;
+	}
+	.portfolio__inner::after {
+		right: -15px;
+	}
+	.our-partners__content em {
+	    font-size: 2.6rem;
+	    padding: 70px 25px 30px;
+	}
+	.testimonials-slider {
+	    margin-bottom: 75px;
+	}
+	.testimonials__slide-wrap--photo {
+		margin: 0 auto;
+	}
+	.testimonials__slide-wrap--content-wrap {
+		max-width: 605px;
+		min-height: 320px;
+		padding: 35px;
+		position: relative;
+		top: -75px;
+		left: 15px;
+	}
+	.testimonials-slider.owl-theme .owl-dots {
+		bottom: -5px;
+	}
+	.main-footer__description a {
+		font-size: 1.8rem;
+	}
+}
 /* Custom, iPhone 6 */
-@media only screen and (max-width : 667px) {
-
+@media only screen and (max-width : 667px){
+	.policy-confidential h2 {
+		font-size: 4rem;
+	}
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
-
+	.tabs {
+	    left: 18%;
+	}
+	.our-partners__content em {
+		font-size: 2.2rem;
+	}
+	.testimonials__slide-wrap--content-wrap {
+		max-width: 510px;
+	}
+	.testimonials__slide-wrap--content h3 {
+		margin-right: 25px;
+	}
+	.testimonials-slider.owl-theme .owl-dots {
+		bottom: -15px;
+	}
+	.main-footer__email p, 
+	.main-footer__phone p, 
+	.main-footer p {
+		font-size: 2rem;
+	}
+	.main-footer__email a, 
+	.main-footer__phone a {
+	    font-size: 2.2rem;
+	}
+	.policy-confidential h2 {
+	    font-size: 3.6rem;
+	}
 }
-
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    
+	.tabs {
+	    left: 11%;
+	}
+    .portfolio__inner::before {
+    	bottom: 35px;
+    }
+    .portfolio__inner--content ul, 
+    .portfolio__inner--btn-wrap {
+	    padding-left: 95px;
+	}
+	.our-partners__content a {
+	    font-size: 2.4rem;
+	}	
+	.our-partners__content em {	    
+	    font-size: 2rem;
+	    padding: 45px 5px 20px;
+	}
+	.testimonials__slide-wrap--content-wrap {
+		max-width: 420px;
+		top: -170px;
+		left: 15px;
+	}
+	.testimonials-slider.owl-theme .owl-dots {
+	    bottom: 115px;
+	}
+	.testimonials-slider {
+	    margin-bottom: -40px;
+	}
+	.main-footer {
+		padding-top: 30px;
+	}
+	.main-footer__email a, 
+	.main-footer__phone a {
+	    font-size: 1.8rem;
+	}
+	h2 {
+	    font-size: 3rem;
+	}
 }
-
+@media only screen and (max-width : 416px) {
+	.tabs {
+	    left: 4%;
+	}
+	.portfolio__inner::before {
+	    bottom: 75px;
+	}
+	.portfolio__inner--content ul {
+	    padding-left: 65px;
+	}
+	.portfolio__inner--btn-wrap {
+		padding-left: 0;
+	}
+	.portfolio__inner--btn-wrap .btn-blue {		
+		max-width: 450px;	
+	}
+	.w-w-d__screen-form .btn-w-w-d-form {
+		width: 95%;
+	}
+	.our-partners__content-logo {
+		min-height: 85px;
+	}
+	.our-partners__content a {
+		font-size: 1.8rem;
+	}
+	.our-partners__content em {	  
+	    font-size: 1.4rem;
+	    padding: 42px 5px 15px;
+	}
+	.testimonials__slide-wrap--content-wrap {
+	    max-width: 350px;
+	    padding: 25px;
+	    top: -230px;
+	}
+	.testimonials__slide-wrap--content h3, 
+	.testimonials__slide-wrap--content h3 span {
+	    font-size: 3.4rem;
+	}
+	.testimonials-slider.owl-theme .owl-dots {
+	    bottom: 145px;
+	}
+	.testimonials-slider {
+	    margin-bottom: -90px;
+	}
+	.footer-btn {
+		width: 100%;	
+	}
+	.main-footer p {
+	    font-size: 1.4rem;
+	}
+	.main-footer__description a {
+	    font-size: 1.2rem;
+	}
+	.policy-confidential h2 {
+	    font-size: 2.4rem;
+	}
+	.policy-confidential p {
+		font-size: 1.6rem;
+	}
+}
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
-
+	
 }
-
+@media only screen and (max-width : 377px) {
+	.tabs {
+		padding: 0;
+	    left: 6%;
+	}
+	.portfolio__inner::before {
+	    bottom: 95px;
+	}
+	.portfolio__inner--content ul {
+	    padding-left: 45px;
+	}
+	.testimonials__slide-wrap--content-wrap {
+		max-width: 315px;
+		top: -270px;
+	}
+	.testimonials-slider.owl-theme .owl-dots {
+	    bottom: 225px;
+	}
+	.testimonials-slider {
+	    margin-bottom: -140px;
+	}
+}
 /* Custom, iPhone 6 */
-@media only screen and (max-width : 375px) {
-
+@media only screen and (max-width : 375px) {	
+	.policy-confidential h2 {
+	    font-size: 2.2rem;
+	}
 }
-
+@media only screen and (max-width : 360px) {
+	.w-w-d__screen-form .btn-w-w-d-form {
+	    width: 90%;
+	}	
+	.portfolio__inner--photo {
+	    min-height: 215px;
+	}
+	.portfolio__inner::before {
+	    bottom: 30px;
+	}
+	.portfolio__inner--btn-wrap {
+		margin-bottom: 80px;
+	}
+	.our-partners__content a {
+	    font-size: 1.6rem;
+	}
+	.testimonials__slide-wrap--content-wrap {
+		max-width: 300px;
+	}
+	.testimonials-slider {
+	    margin-bottom: -180px;
+	}
+	.main-footer__developet {
+		margin-right: 3px;
+	}
+	.main-footer__developet-logo {
+		max-width: 50px;
+	}
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.tabs {
+	    left: -10px;
+	}
+	.tabs a {
+		padding: 7.5px 16px;
+	}
+	.portfolio__inner::before {
+	    bottom: 45px;
+	}
+	.portfolio__inner--content ul {
+	    padding-left: 20px;
+	}
+	.our-partners__content a {
+	    font-size: 1.4rem;
+	}
+	.testimonials__slide-wrap--content-wrap {
+	    max-width: 260px;
+	    top: -300px;
+	}
+	.main-footer__email a, .main-footer__phone a {
+	    font-size: 1.6rem;
+	}
+	.main-footer__developet {
+	    margin-right: 0;
+	    display: block;
+	    text-align: center;
+	}
+	.main-footer__developet-logo {
+	    max-width: 70px;
+	    margin: 0 auto;
+	    display: block;
+	}
+	.policy-confidential h2 {
+	    font-size: 2rem;
+	}
 }
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
-}
-
-
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */

@@ -748,6 +748,84 @@ label.error {
   max-width: 460px;
   margin: 0 auto 45px;
 }
+.w-w-d__tab-photo {
+  max-width: 705px;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  overflow: hidden;
+}
+.w-w-d__tab-photo img {
+  max-width: 100%;
+}
+.w-w-d__tab-content {
+  padding: 35px 38px 0 0;
+}
+.w-w-d__tab-content h3 {
+  font-family: 'ProximaNova-Bold', sans-serif;
+  color: #ff0070;
+}
+.w-w-d__tab-wrap {
+  max-width: 100%;
+  margin-bottom: 85px;
+}
+.tab {
+  margin-bottom: 20px;
+  position: relative;
+  background: #fff;
+  width: 100%;
+  z-index: 100;
+}
+.tabs {
+  display: table;
+  position: absolute;
+  overflow: hidden;
+  margin: 0;
+  bottom: 25px;
+  left: 55%;
+  z-index: 200;
+}
+.tabs li {
+  text-align: center;
+  float: left;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+.tabs a {
+  width: 50px;
+  height: 50px;
+  color: #082848;
+  font-weight: 500;
+  display: inline-block;
+  letter-spacing: 0;
+  outline: none;
+  padding: 10px 0;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.tabs_item {
+  display: none;
+  padding: 30px 0;
+}
+.tabs_item h3 {
+  font-family: 'ProximaNova-Bold', sans-serif;
+  color: #ff0070;
+}
+.tabs_item img {
+  float: left;
+}
+.tabs_item:first-child {
+  display: block;
+}
+.current a {
+  color: #fff;
+  background: #ff0070;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
 .portfolio {
   padding-top: 80px;
 }
@@ -777,7 +855,7 @@ label.error {
   -webkit-border-radius: 4px;
           border-radius: 4px;
   position: absolute;
-  bottom: 0;
+  bottom: 70px;
   left: 0;
   z-index: 50;
 }
@@ -791,7 +869,7 @@ label.error {
 }
 .portfolio__inner--photo {
   display: block;
-  max-width: 650px;
+  max-width: 520px;
   min-height: 365px;
   overflow: hidden;
   margin: 0 auto;
@@ -864,10 +942,8 @@ label.error {
 }
 .our-partners__content em {
   content: '';
-  max-width: 365px;
-  min-height: 210px;
   font-family: 'ProximaNovaSemiBold', sans-serif;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   color: #3b3b3b;
   background: url("../img/hover.png") no-repeat top center;
   background-size: cover;
@@ -875,10 +951,19 @@ label.error {
   top: 85px;
   left: 0;
   text-align: center;
-  padding: 70px 30px 30px;
+  padding: 70px 15px 30px;
   font-style: normal;
   z-index: 550;
   display: none;
+}
+.our-partners__content-wrap ul {
+  padding: 0;
+  margin: 0;
+}
+.our-partners__content-wrap ul li {
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
 }
 .testimonials img {
   max-width: 100%;
@@ -892,7 +977,7 @@ label.error {
   position: relative;
 }
 .testimonials__slide-wrap--content-wrap {
-  max-width: 950px;
+  max-width: 675px;
   min-height: 393px;
   -webkit-border-radius: 4px;
           border-radius: 4px;
@@ -902,7 +987,7 @@ label.error {
           box-shadow: 0px 0px 15.2px 0.8px rgba(85, 85, 85, 0.38);
   padding: 60px 80px;
   position: absolute;
-  top: 80px;
+  top: 45px;
   left: 450px;
 }
 .testimonials__slide-wrap--content h3 {
@@ -931,8 +1016,8 @@ label.error {
 }
 .testimonials-slider.owl-theme .owl-dots {
   position: absolute;
-  bottom: 25px;
-  left: 45%;
+  bottom: 5px;
+  left: 55%;
 }
 .testimonials-slider.owl-theme .owl-dots .owl-dot span {
   width: 12px;
@@ -960,6 +1045,10 @@ label.error {
 .main-footer a {
   display: block;
   color: #fff;
+  font-size: 2.4rem;
+}
+.main-footer__logo img {
+  max-width: 100%;
 }
 .main-footer__email {
   padding-top: 10px;
@@ -969,7 +1058,6 @@ label.error {
 }
 .main-footer__email a {
   font-family: 'ProximaNovaSemiBold', sans-serif;
-  font-size: 2.8rem;
 }
 .main-footer__phone {
   padding-top: 10px;
@@ -979,27 +1067,38 @@ label.error {
 }
 .main-footer__phone a {
   font-family: 'ProximaNovaSemiBold', sans-serif;
-  font-size: 3rem;
 }
 .main-footer__btn-wrap {
   padding-top: 27px;
 }
 .main-footer__description a {
   text-decoration: underline;
+  margin-bottom: 0;
 }
 .main-footer__description a:hover {
   text-decoration: none;
 }
-.main-footer__develpet {
+.main-footer__developet {
   display: inline-block;
   vertical-align: bottom;
   margin-right: 15px;
 }
-.main-footer__develpet-logo {
+.main-footer__developet-logo {
   display: inline-block;
   vertical-align: bottom;
+}
+.main-footer__developet-logo img {
+  max-width: 100%;
 }
 .footer-btn {
   height: 70px;
   line-height: 70px;
+}
+.policy-confidential h2 {
+  text-align: left;
+  font-family: 'ProximaNovaSemiBold', sans-serif;
+}
+.policy-confidential p {
+  text-align: left;
+  font-size: 1.8rem;
 }
